@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Rubik+Dirt&family=Rubik+Moonrocks&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+/*Ventana principal*/
+#section-principal{
+    position:relative;
+    bottom: 42rem;
+}
+.principalImageBack{
+    width: 100%;
+    height: 16rem;
+}
+.titulo-button{
+    position: relative;
+    bottom: 23rem;
+    color: #EAE7AF;
+    right: 0rem;
+    border-radius: 0rem;
+    text-decoration: none;
+    font-family: 'Rubik Moonrocks', cursiva;
+    font-size: 4rem;
+    background-color: #00000029;
+    height: 15.7rem;
+    width: 100%;
+    
+}
+.titulo-text{
+    position: relative;
+    bottom: 10rem;
+    color: #EAE7AF;
+    right: 0rem;
+    padding-left: 3rem;
+    text-decoration: none;
+    font-family: 'Rubik Moonrocks', cursiva;
+    font-size: 6rem;
+}
+.cajabotones{
+    background-color:rgb(0, 0, 0);
+    position:relative;
+    bottom: 24.1rem;
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 2rem;
+}
+.barra-inicio{
+    position:relative;
+    bottom: 13.2rem;
+    margin-top: -15rem;
+    list-style: none;
+    padding-left: 0rem;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.button-inicio{
+    position:relative;
+    bottom: -1rem;
+    color: #EAE7AF;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    background-color: #000000a6;
+    font-family: 'Rubik Dirt', cursiva; 
+    font-size: 2.5rem;
+    
+}
+.button-inicio:hover{
+    color: #610094;
+}
+.button-inicio:active{
+    color: #3F0071;
+}
+.button-inicio::after{
+    content: "  ";
+}
+/*Ventanas Secundarias*/
+/*Realizar una clase aparte por cada section que que cada  section sera distinta.*/
+#sections{
+    position:relative;
+    bottom: -14rem;
+    width: 100%;
+}
+.imageBack{
+    width: 100%;
+    height: 59.9rem;
+    position:relative;
+    bottom: 0rem;
+}
+.parrafoConten{
+    position:relative;
+    bottom: 69rem;
+    list-style: none;
+    padding-left: 1.6rem;
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    font-family: 'Rubik Moonrocks', cursiva;
+    font-size: 3rem;
+}
+.pageSecun{
+    position:relative;
+    bottom: 0rem;
+    width: 100%;
+    height: 41.5rem;
+}
+.cajaHome{
+    background-color:#00000063;
+    position:relative;
+    bottom: 54rem;
+    height: 15.6rem;
+}
+.cajaNosotros{
+    background-color:#51557e63;
+    position:relative;
+    bottom: 54rem;
+    height: 15.6rem;
+}
+.cajaArtistas{
+    background-color:#35220b61;
+    position:relative;
+    bottom: 54rem;
+    height: 15.6rem;
+}
+.cajaProyectos{
+    background-color:#55554e4d;
+    position:relative;
+    bottom: 54rem;
+    height: 15.6rem;
+}
+/*font-family: 'Londrina Shadow', cursiva;
+font-family: 'Rubik Dirt', cursiva;
+font-family: 'Rubik Moonrocks', cursiva;*/
